@@ -1,3 +1,6 @@
 [submodule "platzi/SimonSays"]
 	path = platzi/SimonSays
 	url = https://github.com/caicedo1089/SimonSays
+[submodule "pz/SimonSays"]
+	path = pz/SimonSays
+	url = https://github.com/caicedo1089/SimonSays
