@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
         
         <!-- Estilos de nuestra app -->
-        <link rel="stylesheet" type="text/css" href="app/app.css"/>
+        <link rel="stylesheet" type="text/css" href="app/app.css?v=1.0.0"/>
         
         <!--Favicon-->
         <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png"/>
@@ -29,8 +29,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
         
         <title>Pedro Caicedo - Desarrollador de Software</title>
+        <meta name="subjetc" content="Pedro Caicedo - Desarrollador de Software"> 
+        <meta name="description" content="Pedro Caicedo - Desarrollador de Software">
+        <meta name="keywords" content="Pedro Caicedo - Desarrollador de Software">
+        <meta name="author" content="Pedro Caicedo, caicedo1089, pcaicedo.com">
+
+        <!-- Cargador Inicial -->
+        <script>
+            window.onload = function(e){ document.getElementById("initial-loading").remove();}
+        </script>
     </head>
     <body>
+        
+        <!-- Cargador Inicial -->
+        <section id="initial-loading">
+            <div class="loader-container">
+                <div class="loader"></div>
+            </div>
+        </section>
+
         <section id="header-container"></section>
         <section id="main-container"></section>
         
@@ -38,6 +55,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
         
         <!-- JS de nuestra app -->
-        <script type="application/javascript" src="app/app.js"></script>
+        <script type="application/javascript" src="app/app.js?v=1.0.0"></script>
     </body>
   </html>
