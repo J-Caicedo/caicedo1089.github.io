@@ -1,4 +1,4 @@
-![Showdown][sd-logo]
+![bannner][bannner]
 
 # MySQL, import SQL file from console
 
@@ -18,5 +18,7 @@ Importing SQL data in MySQL is very simple through PHPMyAdmin, either from the i
 		
 When executing this last command, the MySQL interpreter will execute each one of the lines contained in the SQL file and the console will respond directly, as shown in the following image:
 
-![Showdown][sd-logo]
-[sd-logo]: https://caicedo1089.github.io/server/blog/1/imgBanner.png
+![bannner][img01]
+
+[bannner]: https://caicedo1089.github.io/server/blog/1/imgBanner.png "Banner" 
+[img01]: https://caicedo1089.github.io/server/blog/1/img01.png

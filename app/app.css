@@ -6879,3 +6879,12 @@ nav .sidenav-trigger i {
 /* FIN profile-card */
 .about h5 {
   margin-top: 0; }
+
+.blog p img {
+  max-width: 100%; }
+
+.projects p img {
+  max-width: 100%; }
+
+.about p img {
+  max-width: 100%; }

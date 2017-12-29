@@ -1,4 +1,4 @@
-![Showdown][sd-logo]
+![bannner][bannner]
 
 # MySQL, importar archivo SQL desde consola
 
@@ -18,5 +18,7 @@ Importar datos SQLs en MySQL es muy sencillo a través de PHPMyAdmin, ya sea des
 		
 Al ejecutar este último comando el interprete MySQL ejecutará cada unas de las líneas contenidas en el archivo SQL y nos responderá la consola directamente, como se muestra en la siguiente imagen:
 
-![Showdown][sd-logo]
-[sd-logo]: https://caicedo1089.github.io/server/blog/1/imgBanner.png
+![bannner][img01]
+
+[bannner]: https://caicedo1089.github.io/server/blog/1/imgBanner.png "Banner" 
+[img01]: https://caicedo1089.github.io/server/blog/1/img01.png
